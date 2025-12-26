@@ -1,0 +1,29 @@
+/* Quick Stats and Featured Skills Mobile Responsive */
+@media (max-width: 640px) {
+    .quick-stats {
+        grid-template-columns: 1fr;
+        padding: var(--spacing-lg);
+    }
+
+    .stat-item {
+        padding: var(--spacing-sm);
+    }
+
+    .featured-skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-md);
+    }
+
+    .featured-skill {
+        padding: var(--spacing-md);
+    }
+
+    .skill-icon-large {
+        font-size: 2rem;
+    }
+
+    .status-badge {
+        font-size: var(--font-size-xs);
+        padding: var(--spacing-xs) var(--spacing-md);
+    }
+}
